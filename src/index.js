@@ -1,9 +1,9 @@
 require('dotenv').config();
 
-const { Client, MessageEmbed } = require('discord.js');
+const { Client } = require('discord.js');
 const bot = new Client();
-const sendMessage = require('./utils/sendMessage');
 const data = require('./data/data');
+const commandRouter = require('./commandRouter');
 
 const prefix = process.env.PREFIX;
 
@@ -16,16 +16,7 @@ bot.on('message', (message) => {
 
     if (!message.content.startsWith(prefix)) return;
 
-    const args = message.content.slice(prefix.length).trim().split(/ +/g);
-    const command = args.shift().toLowerCase();
-
-    switch (command) {
-        case 'hw':
-            sendMessage(message, 'Hello world', 'correct', 'hello world');
-            break;
-        default:
-            break;
-    }
+    commandRouter(message);
 });
 
 bot.login(process.env.TOKEN);
