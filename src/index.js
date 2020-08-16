@@ -3,11 +3,13 @@ require('dotenv').config();
 const { Client, MessageEmbed } = require('discord.js');
 const bot = new Client();
 const sendMessage = require('./utils/sendMessage');
+const data = require('./data/data');
 
 const prefix = process.env.PREFIX;
 
 global.bot = bot;
 global.prefix = prefix;
+global.data = data;
 
 bot.on('message', (message) => {
     if (message.author.bot) return;
