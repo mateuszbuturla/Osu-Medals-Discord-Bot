@@ -1,0 +1,19 @@
+{
+  "name": "osu-medal-discord-bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./src/index.js",
+  "author": "Mateusz Buturla <2002mateuszbuturla@gmail.com>",
+  "scripts": {
+    "start": "node ./src/index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "prettier": "^2.0.5"
+  },
+  "dependencies": {
+    "discord.js": "^12.3.1",
+    "dotenv": "^8.2.0"
+  }
+}
