@@ -27,6 +27,10 @@ const prefix = process.env.PREFIX;
 global.bot = bot;
 global.prefix = prefix;
 
+bot.on('ready', () => {
+    bot.user.setActivity(`${prefix}help`, { type: 'PLAYING' });
+});
+
 bot.on('message', (message) => {
     if (message.author.bot) return;
 
