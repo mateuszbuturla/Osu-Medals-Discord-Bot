@@ -1,7 +1,8 @@
 const allMedals = require('./components/allMedals');
-const incorrectCommand = require('./components/incorrectCommand');
+const howGet = require('./components/howGet');
 const help = require('./components/help');
 const author = require('./components/author');
+const incorrectCommand = require('./components/incorrectCommand');
 
 module.exports = (message) => {
     const args = message.content.slice(prefix.length).trim().split(/ +/g);
@@ -10,6 +11,9 @@ module.exports = (message) => {
     switch (command) {
         case 'medals':
             allMedals(message);
+            break;
+        case 'howget':
+            howGet(message, args);
             break;
         case 'help':
             help(message);

@@ -8,6 +8,7 @@ module.exports = (
     footer,
     fields,
     thenFunction,
+    imageUrl,
 ) => {
     const embed = new MessageEmbed();
     if (title) embed.title = title;
@@ -15,9 +16,10 @@ module.exports = (
     if (description) embed.description = description;
     if (footer) embed.footer = footer;
     if (fields) embed.fields = fields;
+    if (imageUrl) embed.setThumbnail(imageUrl);
 
     client.channel.send(embed).then((msg) => {
-        if (thenFunction !== undefined) {
+        if (thenFunction) {
             thenFunction(msg, embed);
         }
     });
