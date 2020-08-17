@@ -1,5 +1,5 @@
 const allMedals = require('./components/allMedals');
-const howGet = require('./components/howGet');
+const medal = require('./components/medal');
 const help = require('./components/help');
 const author = require('./components/author');
 const incorrectCommand = require('./components/incorrectCommand');
@@ -12,8 +12,8 @@ module.exports = (message) => {
         case 'medals':
             allMedals(message);
             break;
-        case 'howget':
-            howGet(message, args);
+        case 'medal':
+            medal(message, args);
             break;
         case 'help':
             help(message);
