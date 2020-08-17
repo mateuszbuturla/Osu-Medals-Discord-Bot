@@ -4,6 +4,8 @@ const { Client } = require('discord.js');
 const bot = new Client();
 const data = require('./data/data');
 const commandRouter = require('./commandRouter');
+const prototypes = require('./utils/prototypes');
+prototypes();
 
 const prefix = process.env.PREFIX;
 
