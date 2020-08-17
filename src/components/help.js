@@ -7,6 +7,10 @@ module.exports = (message) => {
             value: 'Show all medals',
         },
         {
+            name: `${prefix}howget (medal name)`,
+            value: 'Show hint how to get medal',
+        },
+        {
             name: `${prefix}author`,
             value: 'Bot author',
         },
