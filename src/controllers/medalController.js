@@ -1,6 +1,7 @@
 const mongoose = require('mongoose');
 const medalModel = require('../models/medalModel');
 const ratingModel = require('../models/ratingModel');
+const sendMessage = require('../utils/sendMessage');
 
 const getMedals = async () => {
     const findAllMedals = await medalModel.find({});
@@ -8,7 +9,7 @@ const getMedals = async () => {
     global.data = findAllMedals;
 };
 
-const setRating = async (rating, medalId, type) => {
+const setRating = async (message, rating, medalId, type) => {
     const medal = await medalModel.find({ _id: medalId });
     if (type === 'set') {
         await medalModel.updateOne(
@@ -25,10 +26,11 @@ const setRating = async (rating, medalId, type) => {
             },
             (err) => {
                 if (err) {
-                    return console.log(err);
+                    return sendMessage(message, 'Server error', 'error');
                 }
 
                 getMedals();
+                sendMessage(message, 'Thanks you for your vote', 'correct');
             },
         );
     } else if (type === 'change') {
@@ -46,10 +48,11 @@ const setRating = async (rating, medalId, type) => {
             },
             (err) => {
                 if (err) {
-                    return console.log(err);
+                    return sendMessage(message, 'Server error', 'error');
                 }
 
                 getMedals();
+                sendMessage(message, 'Your vote was changed', 'correct');
             },
         );
     }
@@ -63,7 +66,7 @@ exports.addRating = async (message, rating, medalId, userId) => {
     const findRating = await ratingModel.find({ rating, medalId, userId });
 
     if (findRating.length > 0) {
-        return console.log('validation error');
+        return sendMessage(message, 'The vote was given', 'error');
     }
 
     const findOtherRating = await ratingModel.find({ medalId, userId });
@@ -76,10 +79,10 @@ exports.addRating = async (message, rating, medalId, userId) => {
             },
             async (err) => {
                 if (err) {
-                    return console.log(err);
+                    return sendMessage(message, 'Server error', 'error');
                 }
 
-                setRating(rating, medalId, 'change');
+                setRating(message, rating, medalId, 'change');
             },
         );
     } else {
@@ -92,10 +95,10 @@ exports.addRating = async (message, rating, medalId, userId) => {
             },
             async (err) => {
                 if (err) {
-                    return console.log(err);
+                    return sendMessage(message, 'Server error', 'error');
                 }
 
-                setRating(rating, medalId, 'set');
+                setRating(message, rating, medalId, 'set');
             },
         );
     }
