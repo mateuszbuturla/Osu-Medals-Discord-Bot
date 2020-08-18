@@ -96,7 +96,7 @@ module.exports = (message) => {
         message,
         'All medals',
         'correct',
-        'All medals in Osu standard mode',
+        'All medals in Osu',
         `Page ${page} of ${pages.length}`,
         pages[page - 1],
         thenFunction,

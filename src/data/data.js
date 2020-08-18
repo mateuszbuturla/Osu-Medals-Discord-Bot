@@ -49,132 +49,455 @@ module.exports = [
     },
     {
         title: 'Rising Star',
-        description: 'Pass a 1 star map without using EZ/NF/HT mods.',
+        description:
+            'Pass a 1 star map without using EZ/NF/HT mods. Osu standard',
         img: 'https://assets.ppy.sh/medals/web/osu-skill-pass-1.png',
         category: 'Skill',
     },
     {
         title: 'Constellation Prize',
-        description: 'Pass a 2 star map without using EZ/NF/HT mods.',
+        description:
+            'Pass a 2 star map without using EZ/NF/HT mods. Osu standard',
         img: 'https://assets.ppy.sh/medals/web/osu-skill-pass-2.png',
         category: 'Skill',
     },
     {
         title: 'Building Confidence',
-        description: 'Pass a 3 star map without using EZ/NF/HT mods.',
+        description:
+            'Pass a 3 star map without using EZ/NF/HT mods. Osu standard',
         img: 'https://assets.ppy.sh/medals/web/osu-skill-pass-3.png',
         category: 'Skill',
     },
     {
         title: 'Insanity Approaches',
-        description: 'Pass a 4 star map without using EZ/NF/HT mods.',
+        description:
+            'Pass a 4 star map without using EZ/NF/HT mods. Osu standard',
         img: 'https://assets.ppy.sh/medals/web/osu-skill-pass-4.png',
         category: 'Skill',
     },
     {
         title: 'These Clarion Skies',
-        description: 'Pass a 5 star map without using EZ/NF/HT mods.',
+        description:
+            'Pass a 5 star map without using EZ/NF/HT mods. Osu standard',
         img: 'https://assets.ppy.sh/medals/web/osu-skill-pass-5.png',
         category: 'Skill',
     },
     {
         title: 'Above and Beyond',
-        description: 'Pass a 6 star map without using EZ/NF/HT mods.',
+        description:
+            'Pass a 6 star map without using EZ/NF/HT mods. Osu standard',
         img: 'https://assets.ppy.sh/medals/web/osu-skill-pass-6.png',
         category: 'Skill',
     },
     {
         title: 'Supremacy',
-        description: 'Pass a 7 star map without using EZ/NF/HT mods.',
+        description:
+            'Pass a 7 star map without using EZ/NF/HT mods. Osu standard',
         img: 'https://assets.ppy.sh/medals/web/osu-skill-pass-7.png',
         category: 'Skill',
     },
     {
         title: 'Absolution',
-        description: 'Pass a 8 star map without using EZ/NF/HT mods.',
+        description:
+            'Pass a 8 star map without using EZ/NF/HT mods. Osu standard',
         img: 'https://assets.ppy.sh/medals/web/osu-skill-pass-8.png',
         category: 'Skill',
     },
     {
         title: 'Event Horizon',
-        description: 'Pass a 9 star map without using EZ/NF/HT mods.',
+        description:
+            'Pass a 9 star map without using EZ/NF/HT mods. Osu standard',
         img: 'https://assets.ppy.sh/medals/web/osu-skill-pass-9.png',
         category: 'Skill',
     },
     {
         title: 'Phantasm',
-        description: 'Pass a 10 star map without using EZ/NF/HT mods.',
+        description:
+            'Pass a 10 star map without using EZ/NF/HT mods. Osu standard',
         img: 'https://assets.ppy.sh/medals/web/osu-skill-pass-10.png',
         category: 'Skill',
     },
     {
         title: 'Totality',
         description:
-            "Full combo a 1 star map without using EZ/NF/HT mods you can't break slider end",
+            "Full combo a 1 star map without using EZ/NF/HT mods you can't break slider end. Osu standard",
         img: 'https://assets.ppy.sh/medals/web/osu-skill-fc-1.png',
         category: 'Skill',
     },
     {
         title: 'Business As Usual',
         description:
-            "Full combo a 2 star map without using EZ/NF/HT mods you can't break slider end",
+            "Full combo a 2 star map without using EZ/NF/HT mods you can't break slider end. Osu standard",
         img: 'https://assets.ppy.sh/medals/web/osu-skill-fc-2.png',
         category: 'Skill',
     },
     {
         title: 'Building Stream',
         description:
-            "Full combo a 3 star map without using EZ/NF/HT mods you can't break slider end",
+            "Full combo a 3 star map without using EZ/NF/HT mods you can't break slider end. Osu standard",
         img: 'https://assets.ppy.sh/medals/web/osu-skill-fc-3.png',
         category: 'Skill',
     },
     {
         title: 'Moving Forward',
         description:
-            "Full combo a 4 star map without using EZ/NF/HT mods you can't break slider end",
+            "Full combo a 4 star map without using EZ/NF/HT mods you can't break slider end. Osu standard",
         img: 'https://assets.ppy.sh/medals/web/osu-skill-fc-4.png',
         category: 'Skill',
     },
     {
         title: 'Paradigm Shift',
         description:
-            "Full combo a 5 star map without using EZ/NF/HT mods you can't break slider end",
+            "Full combo a 5 star map without using EZ/NF/HT mods you can't break slider end. Osu standard",
         img: 'https://assets.ppy.sh/medals/web/osu-skill-fc-5.png',
         category: 'Skill',
     },
     {
         title: 'Anguish Quelled',
         description:
-            "Full combo a 6 star map without using EZ/NF/HT mods you can't break slider end",
+            "Full combo a 6 star map without using EZ/NF/HT mods you can't break slider end. Osu standard",
         img: 'https://assets.ppy.sh/medals/web/osu-skill-fc-6.png',
         category: 'Skill',
     },
     {
         title: 'Never Give Up',
         description:
-            "Full combo a 7 star map without using EZ/NF/HT mods you can't break slider end",
+            "Full combo a 7 star map without using EZ/NF/HT mods you can't break slider end. Osu standard",
         img: 'https://assets.ppy.sh/medals/web/osu-skill-fc-7.png',
         category: 'Skill',
     },
     {
         title: 'Aberration',
         description:
-            "Full combo a 8 star map without using EZ/NF/HT mods you can't break slider end",
+            "Full combo a 8 star map without using EZ/NF/HT mods you can't break slider end. Osu standard",
         img: 'https://assets.ppy.sh/medals/web/osu-skill-fc-8.png',
         category: 'Skill',
     },
     {
         title: 'Chosen',
         description:
-            "Full combo a 9 star map without using EZ/NF/HT mods you can't break slider end",
+            "Full combo a 9 star map without using EZ/NF/HT mods you can't break slider end. Osu standard",
         img: 'https://assets.ppy.sh/medals/web/osu-skill-fc-9.png',
         category: 'Skill',
     },
     {
         title: 'Unfathomable',
         description:
-            "Full combo a 10 star map without using EZ/NF/HT mods you can't break slider end",
+            "Full combo a 10 star map without using EZ/NF/HT mods you can't break slider end. Osu standard",
         img: 'https://assets.ppy.sh/medals/web/osu-skill-fc-10.png',
+        category: 'Skill',
+    },
+    {
+        title: 'My First Don',
+        description: 'Pass a 1 star map without using EZ/NF/HT mods. Osu Taiko',
+        img: 'https://assets.ppy.sh/medals/web/taiko-skill-pass-1.png',
+        category: 'Skill',
+    },
+    {
+        title: 'Katsu Katsu Katsu',
+        description: 'Pass a 2 star map without using EZ/NF/HT mods. Osu Taiko',
+        img: 'https://assets.ppy.sh/medals/web/taiko-skill-pass-2.png',
+        category: 'Skill',
+    },
+    {
+        title: 'Not Even Trying',
+        description: 'Pass a 3 star map without using EZ/NF/HT mods. Osu Taiko',
+        img: 'https://assets.ppy.sh/medals/web/taiko-skill-pass-3.png',
+        category: 'Skill',
+    },
+    {
+        title: 'Face Your Demons',
+        description: 'Pass a 4 star map without using EZ/NF/HT mods. Osu Taiko',
+        img: 'https://assets.ppy.sh/medals/web/taiko-skill-pass-4.png',
+        category: 'Skill',
+    },
+    {
+        title: 'The Demon Within',
+        description: 'Pass a 5 star map without using EZ/NF/HT mods. Osu Taiko',
+        img: 'https://assets.ppy.sh/medals/web/taiko-skill-pass-5.png',
+        category: 'Skill',
+    },
+    {
+        title: 'Drumbreaker',
+        description: 'Pass a 6 star map without using EZ/NF/HT mods. Osu Taiko',
+        img: 'https://assets.ppy.sh/medals/web/taiko-skill-pass-6.png',
+        category: 'Skill',
+    },
+    {
+        title: 'The Godfather',
+        description: 'Pass a 7 star map without using EZ/NF/HT mods. Osu Taiko',
+        img: 'https://assets.ppy.sh/medals/web/taiko-skill-pass-7.png',
+        category: 'Skill',
+    },
+    {
+        title: 'Rhythm Incarnate',
+        description:
+            'Pass a  8 star map without using EZ/NF/HT mods. Osu Taiko',
+        img: 'https://assets.ppy.sh/medals/web/taiko-skill-pass-8.png',
+        category: 'Skill',
+    },
+    {
+        title: 'Keeping Time',
+        description:
+            "Full combo a 1 star map without using EZ/NF/HT mods you can't break slider end. Osu taiko",
+        img: 'https://assets.ppy.sh/medals/web/taiko-skill-fc-1.png',
+        category: 'Skill',
+    },
+    {
+        title: 'To Your Own Beat',
+        description:
+            "Full combo a 2 star map without using EZ/NF/HT mods you can't break slider end. Osu taiko",
+        img: 'https://assets.ppy.sh/medals/web/taiko-skill-fc-2.png',
+        category: 'Skill',
+    },
+    {
+        title: 'Big Drums',
+        description:
+            "Full combo a 3 star map without using EZ/NF/HT mods you can't break slider end. Osu taiko",
+        img: 'https://assets.ppy.sh/medals/web/taiko-skill-fc-3.png',
+        category: 'Skill',
+    },
+    {
+        title: 'Adversity Overcome',
+        description:
+            "Full combo a 4 star map without using EZ/NF/HT mods you can't break slider end. Osu taiko",
+        img: 'https://assets.ppy.sh/medals/web/taiko-skill-fc-4.png',
+        category: 'Skill',
+    },
+    {
+        title: 'Demonslayer',
+        description:
+            "Full combo a 5 star map without using EZ/NF/HT mods you can't break slider end. Osu taiko",
+        img: 'https://assets.ppy.sh/medals/web/taiko-skill-fc-5.png',
+        category: 'Skill',
+    },
+    {
+        title: "Rhythm's Call",
+        description:
+            "Full combo a 6 star map without using EZ/NF/HT mods you can't break slider end. Osu taiko",
+        img: 'https://assets.ppy.sh/medals/web/taiko-skill-fc-6.png',
+        category: 'Skill',
+    },
+    {
+        title: 'Time Everlasting',
+        description:
+            "Full combo a 7 star map without using EZ/NF/HT mods you can't break slider end. Osu taiko",
+        img: 'https://assets.ppy.sh/medals/web/taiko-skill-fc-7.png',
+        category: 'Skill',
+    },
+    {
+        title: "The Drummer's Throne",
+        description:
+            "Full combo a 8 star map without using EZ/NF/HT mods you can't break slider end. Osu taiko",
+        img: 'https://assets.ppy.sh/medals/web/taiko-skill-fc-8.png',
+        category: 'Skill',
+    },
+    {
+        title: 'A Slice Of Life',
+        description: 'Pass a 1 star map without using EZ/NF/HT mods. Osu catch',
+        img: 'https://assets.ppy.sh/medals/web/fruits-skill-pass-1.png',
+        category: 'Skill',
+    },
+    {
+        title: 'Dashing Ever Forward',
+        description: 'Pass a 2 star map without using EZ/NF/HT mods. Osu catch',
+        img: 'https://assets.ppy.sh/medals/web/fruits-skill-pass-2.png',
+        category: 'Skill',
+    },
+    {
+        title: 'Zesty Disposition',
+        description: 'Pass a 3 star map without using EZ/NF/HT mods. Osu catch',
+        img: 'https://assets.ppy.sh/medals/web/fruits-skill-pass-3.png',
+        category: 'Skill',
+    },
+    {
+        title: 'Hyperdash ON!',
+        description: 'Pass a 4 star map without using EZ/NF/HT mods. Osu catch',
+        img: 'https://assets.ppy.sh/medals/web/fruits-skill-pass-4.png',
+        category: 'Skill',
+    },
+    {
+        title: "It's Raining Fruit",
+        description: 'Pass a 5 star map without using EZ/NF/HT mods. Osu catch',
+        img: 'https://assets.ppy.sh/medals/web/fruits-skill-pass-5.png',
+        category: 'Skill',
+    },
+    {
+        title: 'Fruit Ninja',
+        description: 'Pass a 6 star map without using EZ/NF/HT mods. Osu catch',
+        img: 'https://assets.ppy.sh/medals/web/fruits-skill-pass-6.png',
+        category: 'Skill',
+    },
+    {
+        title: 'Dreamcatcher',
+        description: 'Pass a 7 star map without using EZ/NF/HT mods. Osu catch',
+        img: 'https://assets.ppy.sh/medals/web/fruits-skill-pass-7.png',
+        category: 'Skill',
+    },
+    {
+        title: 'Lord if the Catch',
+        description: 'Pass a 8 star map without using EZ/NF/HT mods. Osu catch',
+        img: 'https://assets.ppy.sh/medals/web/fruits-skill-pass-8.png',
+        category: 'Skill',
+    },
+    {
+        title: 'Sweet And Sour',
+        description:
+            "Full combo a 1 star map without using EZ/NF/HT mods you can't break slider end. Osu catch",
+        img: 'https://assets.ppy.sh/medals/web/fruits-skill-fc-1.png',
+        category: 'Skill',
+    },
+    {
+        title: 'Reaching The Core',
+        description:
+            "Full combo a 2 star map without using EZ/NF/HT mods you can't break slider end. Osu catch",
+        img: 'https://assets.ppy.sh/medals/web/fruits-skill-fc-2.png',
+        category: 'Skill',
+    },
+    {
+        title: 'Clean Platter',
+        description:
+            "Full combo a 3 star map without using EZ/NF/HT mods you can't break slider end. Osu catch",
+        img: 'https://assets.ppy.sh/medals/web/fruits-skill-fc-3.png',
+        category: 'Skill',
+    },
+    {
+        title: 'Between The Rain',
+        description:
+            "Full combo a 4 star map without using EZ/NF/HT mods you can't break slider end. Osu catch",
+        img: 'https://assets.ppy.sh/medals/web/fruits-skill-fc-4.png',
+        category: 'Skill',
+    },
+    {
+        title: 'Addicted',
+        description:
+            "Full combo a 5 star map without using EZ/NF/HT mods you can't break slider end. Osu catch",
+        img: 'https://assets.ppy.sh/medals/web/fruits-skill-fc-5.png',
+        category: 'Skill',
+    },
+    {
+        title: 'Quickening',
+        description:
+            "Full combo a 6 star map without using EZ/NF/HT mods you can't break slider end. Osu catch",
+        img: 'https://assets.ppy.sh/medals/web/fruits-skill-fc-6.png',
+        category: 'Skill',
+    },
+    {
+        title: 'Supersonic',
+        description:
+            "Full combo a 7 star map without using EZ/NF/HT mods you can't break slider end. Osu catch",
+        img: 'https://assets.ppy.sh/medals/web/fruits-skill-fc-7.png',
+        category: 'Skill',
+    },
+    {
+        title: 'Dashing Scarlet',
+        description:
+            "Full combo a 8 star map without using EZ/NF/HT mods you can't break slider end. Osu catch",
+        img: 'https://assets.ppy.sh/medals/web/fruits-skill-fc-8.png',
+        category: 'Skill',
+    },
+    {
+        title: 'First Steps',
+        description: 'Pass a 1 star map without using EZ/NF/HT mods. Osu mania',
+        img: 'https://assets.ppy.sh/medals/web/mania-skill-pass-1.png',
+        category: 'Skill',
+    },
+    {
+        title: 'No Normal Player',
+        description: 'Pass a 2 star map without using EZ/NF/HT mods. Osu mania',
+        img: 'https://assets.ppy.sh/medals/web/mania-skill-pass-2.png',
+        category: 'Skill',
+    },
+    {
+        title: 'Impulse Drive',
+        description: 'Pass a 3 star map without using EZ/NF/HT mods. Osu mania',
+        img: 'https://assets.ppy.sh/medals/web/mania-skill-pass-3.png',
+        category: 'Skill',
+    },
+    {
+        title: 'Hyperspeed',
+        description: 'Pass a 4 star map without using EZ/NF/HT mods. Osu mania',
+        img: 'https://assets.ppy.sh/medals/web/mania-skill-pass-4.png',
+        category: 'Skill',
+    },
+    {
+        title: 'Ever Onwards',
+        description: 'Pass a 5 star map without using EZ/NF/HT mods. Osu mania',
+        img: 'https://assets.ppy.sh/medals/web/mania-skill-pass-5.png',
+        category: 'Skill',
+    },
+    {
+        title: 'Another Surpassed',
+        description: 'Pass a 6 star map without using EZ/NF/HT mods. Osu mania',
+        img: 'https://assets.ppy.sh/medals/web/mania-skill-pass-6.png',
+        category: 'Skill',
+    },
+    {
+        title: 'Extra Credit',
+        description: 'Pass a 7 star map without using EZ/NF/HT mods. Osu mania',
+        img: 'https://assets.ppy.sh/medals/web/mania-skill-pass-7.png',
+        category: 'Skill',
+    },
+    {
+        title: 'Maniac',
+        description: 'Pass a 8 star map without using EZ/NF/HT mods. Osu mania',
+        img: 'https://assets.ppy.sh/medals/web/mania-skill-pass-8.png',
+        category: 'Skill',
+    },
+    {
+        title: 'Keystruck',
+        description:
+            "Full combo a 1 star map without using EZ/NF/HT mods you can't break slider end. Osu mania",
+        img: 'https://assets.ppy.sh/medals/web/mania-skill-fc-1.png',
+        category: 'Skill',
+    },
+    {
+        title: 'Keying In',
+        description:
+            "Full combo a 2 star map without using EZ/NF/HT mods you can't break slider end. Osu mania",
+        img: 'https://assets.ppy.sh/medals/web/mania-skill-fc-2.png',
+        category: 'Skill',
+    },
+    {
+        title: 'Hyperflow',
+        description:
+            "Full combo a 3 star map without using EZ/NF/HT mods you can't break slider end. Osu mania",
+        img: 'https://assets.ppy.sh/medals/web/mania-skill-fc-3.png',
+        category: 'Skill',
+    },
+    {
+        title: 'Breakthrough',
+        description:
+            "Full combo a 4 star map without using EZ/NF/HT mods you can't break slider end. Osu mania",
+        img: 'https://assets.ppy.sh/medals/web/mania-skill-fc-4.png',
+        category: 'Skill',
+    },
+    {
+        title: 'Everything Extra',
+        description:
+            "Full combo a 5 star map without using EZ/NF/HT mods you can't break slider end. Osu mania",
+        img: 'https://assets.ppy.sh/medals/web/mania-skill-fc-5.png',
+        category: 'Skill',
+    },
+    {
+        title: 'Level Breaker',
+        description:
+            "Full combo a 6 star map without using EZ/NF/HT mods you can't break slider end. Osu mania",
+        img: 'https://assets.ppy.sh/medals/web/mania-skill-fc-6.png',
+        category: 'Skill',
+    },
+    {
+        title: 'Step Up',
+        description:
+            "Full combo a 7 star map without using EZ/NF/HT mods you can't break slider end. Osu mania",
+        img: 'https://assets.ppy.sh/medals/web/mania-skill-fc-7.png',
+        category: 'Skill',
+    },
+    {
+        title: 'Behind The Veil',
+        description:
+            "Full combo a 8 star map without using EZ/NF/HT mods you can't break slider end. Osu mania",
+        img: 'https://assets.ppy.sh/medals/web/mania-skill-fc-8.png',
         category: 'Skill',
     },
     {
@@ -199,6 +522,60 @@ module.exports = [
         title: '50000 Plays',
         description: 'Get 50000 plays count',
         img: 'https://assets.ppy.sh/medals/web/osu-plays-50000.png',
+        category: 'Dedication',
+    },
+    {
+        title: '30000 Drum Hits',
+        description: 'Get 30000 hits count',
+        img: 'https://assets.ppy.sh/medals/web/taiko-hits-30000.png',
+        category: 'Dedication',
+    },
+    {
+        title: '300000 Drum Hits',
+        description: 'Get 300000 hits count',
+        img: 'https://assets.ppy.sh/medals/web/taiko-hits-300000.png',
+        category: 'Dedication',
+    },
+    {
+        title: '3000000 Drum Hits',
+        description: 'Get 3000000 hits count',
+        img: 'https://assets.ppy.sh/medals/web/taiko-hits-3000000.png',
+        category: 'Dedication',
+    },
+    {
+        title: 'Catch 20000 fruits',
+        description: 'Get 20000 catch fruits count',
+        img: 'https://assets.ppy.sh/medals/web/fruits-hits-20000.png',
+        category: 'Dedication',
+    },
+    {
+        title: 'Catch 200000 fruits',
+        description: 'Get 200000 catch fruits count',
+        img: 'https://assets.ppy.sh/medals/web/fruits-hits-200000.png',
+        category: 'Dedication',
+    },
+    {
+        title: 'Catch 2000000 fruits',
+        description: 'Get 2000000 catch fruits count',
+        img: 'https://assets.ppy.sh/medals/web/fruits-hits-2000000.png',
+        category: 'Dedication',
+    },
+    {
+        title: '40000 Keys',
+        description: 'Get 40000 clicked keys count',
+        img: 'https://assets.ppy.sh/medals/web/mania-hits-40000.png',
+        category: 'Dedication',
+    },
+    {
+        title: '400000 Keys',
+        description: 'Get 400000 clicked keys count',
+        img: 'https://assets.ppy.sh/medals/web/mania-hits-400000.png',
+        category: 'Dedication',
+    },
+    {
+        title: '4000000 Keys',
+        description: 'Get 4000000 clicked keys count',
+        img: 'https://assets.ppy.sh/medals/web/mania-hits-4000000.png',
         category: 'Dedication',
     },
     {
