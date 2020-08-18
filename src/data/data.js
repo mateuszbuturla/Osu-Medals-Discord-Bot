@@ -1,53 +1,49 @@
 module.exports = [
     {
         title: '500 combo',
-        description:
-            'Get 500 combo on any difficulty ranked map, osu!standard mode only!',
+        description: 'Get at least 500 Combo on any ranked beatmap.',
         img: 'https://assets.ppy.sh/medals/web/osu-combo-500.png',
         category: 'Skill',
     },
     {
         title: '750 combo',
-        description:
-            'Get 750 combo on any difficulty ranked map, osu!standard mode only!',
+        description: 'Get at least 7500 Combo on any ranked beatmap.',
         img: 'https://assets.ppy.sh/medals/web/osu-combo-750.png',
         category: 'Skill',
     },
     {
         title: '1000 combo',
-        description:
-            'Get 1000 combo on any difficulty ranked map, osu!standard mode only!',
+        description: 'Get at least 1000 Combo on any ranked beatmap.',
         img: 'https://assets.ppy.sh/medals/web/osu-combo-1000.png',
         category: 'Skill',
     },
     {
         title: '2000 combo',
-        description:
-            'Get 2000 combo on any difficulty ranked map, osu!standard mode only!',
+        description: 'Get at least 2000 Combo on any ranked beatmap.',
         img: 'https://assets.ppy.sh/medals/web/osu-combo-2000.png',
         category: 'Skill',
     },
     {
         title: 'I can see the top',
-        description: 'Get top 50000 global ranking.',
+        description: 'Reach at least rank 50.000 in the pp rankings.',
         img: 'https://assets.ppy.sh/medals/web/all-skill-highranker-1.png',
         category: 'Skill',
     },
     {
         title: 'The gradual rise',
-        description: 'Get top 10000 global ranking.',
+        description: 'Reach at least rank 10.000 in the pp rankings.',
         img: 'https://assets.ppy.sh/medals/web/all-skill-highranker-2.png',
         category: 'Skill',
     },
     {
         title: 'Scaling up',
-        description: 'Get top 5000 global ranking.',
+        description: 'Reach at least rank 5.000 in the pp rankings.',
         img: 'https://assets.ppy.sh/medals/web/all-skill-highranker-3.png',
         category: 'Skill',
     },
     {
         title: 'Approaching the sumit',
-        description: 'Get top 1000 global ranking.',
+        description: 'Reach at least rank 1.000 in the pp rankings.',
         img: 'https://assets.ppy.sh/medals/web/all-skill-highranker-4.png',
         category: 'Skill',
     },
@@ -180,6 +176,30 @@ module.exports = [
             "Full combo a 10 star map without using EZ/NF/HT mods you can't break slider end",
         img: 'https://assets.ppy.sh/medals/web/osu-skill-fc-10.png',
         category: 'Skill',
+    },
+    {
+        title: '5000 Plays',
+        description: 'Get 5000 plays count',
+        img: 'https://assets.ppy.sh/medals/web/osu-plays-5000.png',
+        category: 'Dedication',
+    },
+    {
+        title: '15000 Plays',
+        description: 'Get 15000 plays count',
+        img: 'https://assets.ppy.sh/medals/web/osu-plays-15000.png',
+        category: 'Dedication',
+    },
+    {
+        title: '25000 Plays',
+        description: 'Get 25000 plays count',
+        img: 'https://assets.ppy.sh/medals/web/osu-plays-25000.png',
+        category: 'Dedication',
+    },
+    {
+        title: '50000 Plays',
+        description: 'Get 50000 plays count',
+        img: 'https://assets.ppy.sh/medals/web/osu-plays-50000.png',
+        category: 'Dedication',
     },
     {
         title: "Don't let the bunny distract you",
@@ -665,5 +685,507 @@ module.exports = [
         description: 'No data for this medal',
         img: 'https://assets.ppy.sh/medals/web/all-secret-valediction.png',
         category: 'Hush-Hush',
+    },
+    {
+        title: 'Finality',
+        description: "Pass any map with SD mod. Can't use any other mods.",
+        img: 'https://assets.ppy.sh/medals/web/all-intro-suddendeath.png',
+        category: 'Mod Introduction',
+    },
+    {
+        title: 'Perfectionist',
+        description: "Pass any map with PF mod. Can't use any other mods.",
+        img: 'https://assets.ppy.sh/medals/web/all-intro-perfect.png',
+        category: 'Mod Introduction',
+    },
+    {
+        title: 'Rock Around The Clock',
+        description:
+            'Pass any map with HR mod. Can use other mods in the same play.',
+        img: 'https://assets.ppy.sh/medals/web/all-intro-hardrock.png',
+        category: 'Mod Introduction',
+    },
+    {
+        title: 'Time And A Half',
+        description:
+            'Pass any map with DT mod. Can use other mods in the same play.',
+        img: 'https://assets.ppy.sh/medals/web/all-intro-doubletime.png',
+        category: 'Mod Introduction',
+    },
+    {
+        title: 'Sweet Rave Party',
+        description:
+            'Pass any map with NC mod. Can use other mods in the same play.',
+        img: 'https://assets.ppy.sh/medals/web/all-intro-nightcore.png',
+        category: 'Mod Introduction',
+    },
+    {
+        title: 'Blindsight',
+        description:
+            'Pass any map with HD mod. Can use other mods in the same play.',
+        img: 'https://assets.ppy.sh/medals/web/all-intro-hidden.png',
+        category: 'Mod Introduction',
+    },
+    {
+        title: 'Are You Afraid Of The Dark?',
+        description:
+            'Pass any map with FL mod. Can use other mods in the same play.',
+        img: 'https://assets.ppy.sh/medals/web/all-intro-flashlight.png',
+        category: 'Mod Introduction',
+    },
+    {
+        title: 'Dial It Right Back',
+        description:
+            'Pass any map with EZ mod. Can use other mods in the same play.',
+        img: 'https://assets.ppy.sh/medals/web/all-intro-easy.png',
+        category: 'Mod Introduction',
+    },
+    {
+        title: 'Risk Averse',
+        description:
+            'Pass any map with NF mod. Can use other mods in the same play.',
+        img: 'https://assets.ppy.sh/medals/web/all-intro-nofail.png',
+        category: 'Mod Introduction',
+    },
+    {
+        title: 'Slowboat',
+        description:
+            'Pass any map with HT mod. Can use other mods in the same play.',
+        img: 'https://assets.ppy.sh/medals/web/all-intro-halftime.png',
+        category: 'Mod Introduction',
+    },
+    {
+        title: 'Burned Out',
+        description:
+            'Pass any map with SO mod. Can use other mods in the same play.',
+        img: 'https://assets.ppy.sh/medals/web/all-intro-spunout.png',
+        category: 'Mod Introduction',
+    },
+    {
+        title: 'January/Febuary 2017 Spotlight',
+        description:
+            'Clear all maps in [January/February 2017](https://osu.ppy.sh/beatmaps/packs)',
+        img: 'https://assets.ppy.sh/medals/web/spotlight-2017-01.png',
+        category: 'Beatmap Spotlights',
+    },
+    {
+        title: 'March 2017 Spotlights',
+        description:
+            'Clear all maps in [March 2017](https://osu.ppy.sh/beatmaps/packs)',
+        img: 'https://assets.ppy.sh/medals/web/spotlight-2017-03.png',
+        category: 'Beatmap Spotlights',
+    },
+    {
+        title: 'April 2017 Spotlights',
+        description:
+            'Clear all maps in [April 2017](https://osu.ppy.sh/beatmaps/packs)',
+        img: 'https://assets.ppy.sh/medals/web/spotlight-2017-04.png',
+        category: 'Beatmap Spotlights',
+    },
+    {
+        title: 'May 2017 Spotlights',
+        description:
+            'Clear all maps in [May 2017](https://osu.ppy.sh/beatmaps/packs)',
+        img: 'https://assets.ppy.sh/medals/web/spotlight-2017-05.png',
+        category: 'Beatmap Spotlights',
+    },
+    {
+        title: 'June 2017 Spotlights',
+        description:
+            'Clear all maps in [June 2017](https://osu.ppy.sh/beatmaps/packs)',
+        img: 'https://assets.ppy.sh/medals/web/spotlight-2017-06.png',
+        category: 'Beatmap Spotlights',
+    },
+    {
+        title: 'July 2017 Spotlights',
+        description:
+            'Clear all maps in [July 2017](https://osu.ppy.sh/beatmaps/packs)',
+        img: 'https://assets.ppy.sh/medals/web/spotlight-2017-07.png',
+        category: 'Beatmap Spotlights',
+    },
+    {
+        title: 'August 2017 Spotlights',
+        description:
+            'Clear all maps in [August 2017](https://osu.ppy.sh/beatmaps/packs)',
+        img: 'https://assets.ppy.sh/medals/web/spotlight-2017-08.png',
+        category: 'Beatmap Spotlights',
+    },
+    {
+        title: 'September 2017 Spotlights',
+        description:
+            'Clear all maps in [September 2017](https://osu.ppy.sh/beatmaps/packs)',
+        img: 'https://assets.ppy.sh/medals/web/spotlight-2017-09.png',
+        category: 'Beatmap Spotlights',
+    },
+    {
+        title: 'October 2017 Spotlights',
+        description:
+            'Clear all maps in [October 2017](https://osu.ppy.sh/beatmaps/packs)',
+        img: 'https://assets.ppy.sh/medals/web/spotlight-2017-10.png',
+        category: 'Beatmap Spotlights',
+    },
+    {
+        title: 'November 2017 Spotlights',
+        description:
+            'Clear all maps in [November 2017](https://osu.ppy.sh/beatmaps/packs)',
+        img: 'https://assets.ppy.sh/medals/web/spotlight-2017-11.png',
+        category: 'Beatmap Spotlights',
+    },
+    {
+        title: 'December 2017 Spotlights',
+        description:
+            'Clear all maps in [Devember 2017](https://osu.ppy.sh/beatmaps/packs)',
+        img: 'https://assets.ppy.sh/medals/web/spotlight-2017-12.png',
+        category: 'Beatmap Spotlights',
+    },
+    {
+        title: 'January 2018 Spotlights',
+        description:
+            'Clear all maps in [January 2018](https://osu.ppy.sh/beatmaps/packs)',
+        img: 'https://assets.ppy.sh/medals/web/spotlight-2018-01.png',
+        category: 'Beatmap Spotlights',
+    },
+    {
+        title: 'Febuary 2018 Spotlights',
+        description:
+            'Clear all maps in [Febuary 2018](https://osu.ppy.sh/beatmaps/packs)',
+        img: 'https://assets.ppy.sh/medals/web/spotlight-2018-02.png',
+        category: 'Beatmap Spotlights',
+    },
+    {
+        title: 'March 2018 Spotlights',
+        description:
+            'Clear all maps in [March 2018](https://osu.ppy.sh/beatmaps/packs)',
+        img: 'https://assets.ppy.sh/medals/web/spotlight-2018-03.png',
+        category: 'Beatmap Spotlights',
+    },
+    {
+        title: 'April 2018 Spotlights',
+        description:
+            'Clear all maps in [April 2018](https://osu.ppy.sh/beatmaps/packs)',
+        img: 'https://assets.ppy.sh/medals/web/spotlight-2018-04.png',
+        category: 'Beatmap Spotlights',
+    },
+    {
+        title: 'Summer 2018 Beatmap Spotlights',
+        description:
+            'Clear all maps in [Summer 2018](https://osu.ppy.sh/beatmaps/packs)',
+        img: 'https://assets.ppy.sh/medals/web/spotlight-2018-summer.png',
+        category: 'Seasonal Spotlights',
+    },
+    {
+        title: 'Fall 2018 Beatmap Spotlights',
+        description:
+            'Clear all maps in [Fall 2018](https://osu.ppy.sh/beatmaps/packs)',
+        img: 'https://assets.ppy.sh/medals/web/spotlight-2018-autumn.png',
+        category: 'Seasonal Spotlights',
+    },
+    {
+        title: 'Winter 2019 Beatmap Spotlights',
+        description:
+            'Clear all maps in [Winter 2019](https://osu.ppy.sh/beatmaps/packs)',
+        img: 'https://assets.ppy.sh/medals/web/spotlight-2019-winter.png',
+        category: 'Seasonal Spotlights',
+    },
+    {
+        title: 'Spring 2019 Beatmap Spotlights',
+        description:
+            'Clear all maps in [Spring 2019](https://osu.ppy.sh/beatmaps/packs)',
+        img: 'https://assets.ppy.sh/medals/web/spotlight-2019-spring.png',
+        category: 'Seasonal Spotlights',
+    },
+    {
+        title: 'Summer 2019 Beatmap Spotlights',
+        description:
+            'Clear all maps in [Summer 2019](https://osu.ppy.sh/beatmaps/packs)',
+        img: 'https://assets.ppy.sh/medals/web/spotlight-2019-summer.png',
+        category: 'Seasonal Spotlights',
+    },
+    {
+        title: 'Autumn 2019 Beatmap Spotlights',
+        description:
+            'Clear all maps in [Autumn 2019](https://osu.ppy.sh/beatmaps/packs)',
+        img: 'https://assets.ppy.sh/medals/web/spotlight-2019-autumn.png',
+        category: 'Seasonal Spotlights',
+    },
+    {
+        title: 'Winter 2020 Beatmap Spotlights',
+        description:
+            'Clear all maps in [Winter 2020](https://osu.ppy.sh/beatmaps/packs)',
+        img: 'https://assets.ppy.sh/medals/web/spotlight-2020-winter.png',
+        category: 'Seasonal Spotlights',
+    },
+    {
+        title: 'Video Game Pack vol.1',
+        description:
+            'Get a score on any difficulty of every map in the beatmap pack "Video Game Pack vol. 1".',
+        img: 'https://assets.ppy.sh/medals/web/all-packs-gamer-1.png',
+        category: 'Beatmap Packs',
+    },
+    {
+        title: 'Video Game Pack vol.2',
+        description:
+            'Get a score on any difficulty of every map in the beatmap pack "Video Game Pack vol. 2".',
+        img: 'https://assets.ppy.sh/medals/web/all-packs-gamer-2.png',
+        category: 'Beatmap Packs',
+    },
+    {
+        title: 'Video Game Pack vol.3',
+        description:
+            'Get a score on any difficulty of every map in the beatmap pack "Video Game Pack vol. 3".',
+        img: 'https://assets.ppy.sh/medals/web/all-packs-gamer-3.png',
+        category: 'Beatmap Packs',
+    },
+    {
+        title: 'Video Game Pack vol.4',
+        description:
+            'Get a score on any difficulty of every map in the beatmap pack "Video Game Pack vol. 4".',
+        img: 'https://assets.ppy.sh/medals/web/all-packs-gamer-4.png',
+        category: 'Beatmap Packs',
+    },
+    {
+        title: 'Anime Pack vol.1',
+        description:
+            'Get a score on any difficulty of every map in the beatmap pack "Anime Pack vol. 1".',
+        img: 'https://assets.ppy.sh/medals/web/all-packs-anime-1.png',
+        category: 'Beatmap Packs',
+    },
+    {
+        title: 'Anime Pack vol.2',
+        description:
+            'Get a score on any difficulty of every map in the beatmap pack "Anime Pack vol. 2".',
+        img: 'https://assets.ppy.sh/medals/web/all-packs-anime-2.png',
+        category: 'Beatmap Packs',
+    },
+    {
+        title: 'Anime Pack vol.3',
+        description:
+            'Get a score on any difficulty of every map in the beatmap pack "Anime Pack vol. 3".',
+        img: 'https://assets.ppy.sh/medals/web/all-packs-anime-3.png',
+        category: 'Beatmap Packs',
+    },
+    {
+        title: 'Anime Pack vol.4',
+        description:
+            'Get a score on any difficulty of every map in the beatmap pack "Anime Pack vol. 4".',
+        img: 'https://assets.ppy.sh/medals/web/all-packs-anime-4.png',
+        category: 'Beatmap Packs',
+    },
+    {
+        title: 'Internet! Pack vol.1',
+        description:
+            'Get a score on any difficulty of every map in the beatmap pack "Internet! Pack vol. 1".',
+        img: 'https://assets.ppy.sh/medals/web/all-packs-internet-1.png',
+        category: 'Beatmap Packs',
+    },
+    {
+        title: 'Internet! Pack vol.2',
+        description:
+            'Get a score on any difficulty of every map in the beatmap pack "Internet! Pack vol. 2".',
+        img: 'https://assets.ppy.sh/medals/web/all-packs-internet-2.png',
+        category: 'Beatmap Packs',
+    },
+    {
+        title: 'Internet! Pack vol.3',
+        description:
+            'Get a score on any difficulty of every map in the beatmap pack "Internet! Pack vol. 3".',
+        img: 'https://assets.ppy.sh/medals/web/all-packs-internet-3.png',
+        category: 'Beatmap Packs',
+    },
+    {
+        title: 'Internet! Pack vol.4',
+        description:
+            'Get a score on any difficulty of every map in the beatmap pack "Internet! Pack vol. 4".',
+        img: 'https://assets.ppy.sh/medals/web/all-packs-internet-4.png',
+        category: 'Beatmap Packs',
+    },
+    {
+        title: 'Rhythm Game Pack vol.1',
+        description:
+            'Get a score on any difficulty of every map in the beatmap pack "Rhythm Game Pack vol. 1".',
+        img: 'https://assets.ppy.sh/medals/web/all-packs-rhythm-1.png',
+        category: 'Beatmap Packs',
+    },
+    {
+        title: 'Rhythm Game Pack vol.2',
+        description:
+            'Get a score on any difficulty of every map in the beatmap pack "Rhythm Game Pack vol. 2".',
+        img: 'https://assets.ppy.sh/medals/web/all-packs-rhythm-2.png',
+        category: 'Beatmap Packs',
+    },
+    {
+        title: 'Rhythm Game Pack vol.3',
+        description:
+            'Get a score on any difficulty of every map in the beatmap pack "Rhythm Game Pack vol. 3".',
+        img: 'https://assets.ppy.sh/medals/web/all-packs-rhythm-3.png',
+        category: 'Beatmap Packs',
+    },
+    {
+        title: 'Rhythm Game Pack vol.4',
+        description:
+            'Get a score on any difficulty of every map in the beatmap pack "Rhythm Game Pack vol. 4".',
+        img: 'https://assets.ppy.sh/medals/web/all-packs-rhythm-4.png',
+        category: 'Beatmap Packs',
+    },
+    {
+        title: 'MOtOLOiD',
+        description:
+            'Get a score on any difficulty of every map in the beatmap pack "MOtOLOiD". ',
+        img: 'https://assets.ppy.sh/medals/web/all-packs-motoloid.png',
+        category: 'Beatmap Packs',
+    },
+    {
+        title: 'Cranky',
+        description:
+            'Get a score on any difficulty of every map in the beatmap pack "Cranky".',
+        img: 'https://assets.ppy.sh/medals/web/all-packs-cranky.png',
+        category: 'Beatmap Packs',
+    },
+    {
+        title: 'High Tea Music',
+        description:
+            'Get a score on any difficulty of every map in the beatmap pack "High Tea Music".',
+        img: 'https://assets.ppy.sh/medals/web/all-packs-highteamusic.png',
+        category: 'Beatmap Packs',
+    },
+    {
+        title: 'Culprate',
+        description:
+            'Get a score on any difficulty of every map in the beatmap pack "Culprate".',
+        img: 'https://assets.ppy.sh/medals/web/all-packs-culprate.png',
+        category: 'Beatmap Packs',
+    },
+    {
+        title: 'HyuN',
+        description:
+            'Get a score on any difficulty of every map in the beatmap pack "HyuN". ',
+        img: 'https://assets.ppy.sh/medals/web/all-packs-hyun.png',
+        category: 'Beatmap Packs',
+    },
+    {
+        title: 'Imperial Circus Dead Decadence',
+        description:
+            'Get a score on any difficulty of every map in the beatmap pack "Imperial Circis Dead Decadence". ',
+        img: 'https://assets.ppy.sh/medals/web/all-packs-icdd.png',
+        category: 'Beatmap Packs',
+    },
+    {
+        title: 'tieff',
+        description:
+            'Get a score on any difficulty of every map in the beatmap pack "tieff".',
+        img: 'https://assets.ppy.sh/medals/web/all-packs-tieff.png',
+        category: 'Beatmap Packs',
+    },
+    {
+        title: 'Afterparty',
+        description:
+            'Get a score on any difficulty of every map in the beatmap pack "Afterparty".',
+        img: 'https://assets.ppy.sh/medals/web/all-packs-afterparty.png',
+        category: 'Beatmap Packs',
+    },
+    {
+        title: 'Ben Briggs',
+        description:
+            'Get a score on any difficulty of every map in the beatmap pack "Ben Briggs".',
+        img: 'https://assets.ppy.sh/medals/web/all-packs-benbriggs.png',
+        category: 'Beatmap Packs',
+    },
+    {
+        title: 'Carpool Tunnel',
+        description:
+            'Get a score on any difficulty of every map in the beatmap pack "Carpool Tunnel".',
+        img: 'https://assets.ppy.sh/medals/web/all-packs-carpooltunnel.png',
+        category: 'Beatmap Packs',
+    },
+    {
+        title: 'Creo',
+        description:
+            'Get a score on any difficulty of every map in the beatmap pack "Creo".',
+        img: 'https://assets.ppy.sh/medals/web/all-packs-creo.png',
+        category: 'Beatmap Packs',
+    },
+    {
+        title: 'cYsmix',
+        description:
+            'Get a score on any difficulty of every map in the beatmap pack "cYsmix".',
+        img: 'https://assets.ppy.sh/medals/web/all-packs-cysmix.png',
+        category: 'Beatmap Packs',
+    },
+    {
+        title: 'Fractal Dreamers',
+        description:
+            'Get a score on any difficulty of every map in the beatmap pack "Fractal Dreamers".',
+        img: 'https://assets.ppy.sh/medals/web/all-packs-fractaldreamers.png',
+        category: 'Beatmap Packs',
+    },
+    {
+        title: 'LukHash',
+        description:
+            'Get a score on any difficulty of every map in the beatmap pack "LukHash".',
+        img: 'https://assets.ppy.sh/medals/web/all-packs-lukhash.png',
+        category: 'Beatmap Packs',
+    },
+    {
+        title: '*namirin',
+        description:
+            'Get a score on any difficulty of every map in the beatmap pack "*namirin".',
+        img: 'https://assets.ppy.sh/medals/web/all-packs-namirin.png',
+        category: 'Beatmap Packs',
+    },
+    {
+        title: 'onumi',
+        description:
+            'Get a score on any difficulty of every map in the beatmap pack "onumi".',
+        img: 'https://assets.ppy.sh/medals/web/all-packs-onumi.png',
+        category: 'Beatmap Packs',
+    },
+    {
+        title: 'The Flashbulb',
+        description:
+            'Get a score on any difficulty of every map in the beatmap pack "The Flashbulb".',
+        img: 'https://assets.ppy.sh/medals/web/all-packs-theflashbulb.png',
+        category: 'Beatmap Packs',
+    },
+    {
+        title: 'Undead Corporation',
+        description:
+            'Get a score on any difficulty of every map in the beatmap pack "Undead Corporation".',
+        img: 'https://assets.ppy.sh/medals/web/all-packs-undeadcorporation.png',
+        category: 'Beatmap Packs',
+    },
+    {
+        title: 'Wisp X',
+        description:
+            'Get a score on any difficulty of every map in the beatmap pack "Wisp X". ',
+        img: 'https://assets.ppy.sh/medals/web/all-packs-wispx.png',
+        category: 'Beatmap Packs',
+    },
+    {
+        title: "Mappers' Guild Pack I",
+        description:
+            'Get a score on any difficulty of every map in the beatmap pack "Mappers Guild Pack I".',
+        img: 'https://assets.ppy.sh/medals/web/all-packs-mappersguild-01.png',
+        category: 'Beatmap Packs',
+    },
+    {
+        title: "Mappers' Guild Pack II",
+        description:
+            'Get a score on any difficulty of every map in the beatmap pack "Mappers Guild Pack II".',
+        img: 'https://assets.ppy.sh/medals/web/all-packs-mappersguild-02.png',
+        category: 'Beatmap Packs',
+    },
+    {
+        title: "Mappers' Guild Pack III",
+        description:
+            'Get a score on any difficulty of every map in the beatmap pack "Mappers Guild Pack III".',
+        img: 'https://assets.ppy.sh/medals/web/all-packs-mappersguild-03.png',
+        category: 'Beatmap Packs',
+    },
+    {
+        title: "Mappers' Guild Pack IV",
+        description:
+            'Get a score on any difficulty of every map in the beatmap pack "Mappers Guild Pack IV".',
+        img: 'https://assets.ppy.sh/medals/web/all-packs-mappersguild-04.png',
+        category: 'Beatmap Packs',
     },
 ];
