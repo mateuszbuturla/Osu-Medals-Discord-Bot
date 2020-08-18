@@ -1,4 +1,5 @@
 const sendMessage = require('../utils/sendMessage');
+const medal = require('./medal');
 
 const medalsToShowOnOnePage = 10;
 
@@ -7,11 +8,49 @@ module.exports = (message) => {
         return {
             name: medal.title,
             value: medal.description,
+            category: medal.category,
         };
     });
 
-    let pages = allMedals.chunk_inefficient(medalsToShowOnOnePage);
     let page = 1;
+
+    const pages = allMedals
+        .chunk_inefficient(medalsToShowOnOnePage)
+        .map((simplePage) => {
+            const toReturn = [];
+            if (
+                simplePage.filter(
+                    (simpleMedal) => simpleMedal.category === 'Skill',
+                ).length > 0
+            ) {
+                toReturn.push({
+                    name: 'Skill',
+                    value: simplePage
+                        .filter(
+                            (simpleMedal) => simpleMedal.category === 'Skill',
+                        )
+                        .map((simpleMedal) => simpleMedal.name)
+                        .join(' \n '),
+                });
+            }
+            if (
+                simplePage.filter(
+                    (simpleMedal) => simpleMedal.category === 'Hush-Hush',
+                ).length > 0
+            ) {
+                toReturn.push({
+                    name: 'Hush-Hush',
+                    value: simplePage
+                        .filter(
+                            (simpleMedal) =>
+                                simpleMedal.category === 'Hush-Hush',
+                        )
+                        .map((simpleMedal) => simpleMedal.name)
+                        .join(' \n '),
+                });
+            }
+            return toReturn;
+        });
 
     const thenFunction = (msg, embed) => {
         msg.react('⏪');
