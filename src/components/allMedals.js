@@ -34,6 +34,89 @@ module.exports = (message) => {
             }
             if (
                 simplePage.filter(
+                    (simpleMedal) => simpleMedal.category === 'Dedication',
+                ).length > 0
+            ) {
+                toReturn.push({
+                    name: 'Dedication',
+                    value: simplePage
+                        .filter(
+                            (simpleMedal) =>
+                                simpleMedal.category === 'Dedication',
+                        )
+                        .map((simpleMedal) => simpleMedal.name)
+                        .join(' \n '),
+                });
+            }
+            if (
+                simplePage.filter(
+                    (simpleMedal) => simpleMedal.category === 'Beatmap Packs',
+                ).length > 0
+            ) {
+                toReturn.push({
+                    name: 'Beatmap Packs',
+                    value: simplePage
+                        .filter(
+                            (simpleMedal) =>
+                                simpleMedal.category === 'Beatmap Packs',
+                        )
+                        .map((simpleMedal) => simpleMedal.name)
+                        .join(' \n '),
+                });
+            }
+            if (
+                simplePage.filter(
+                    (simpleMedal) =>
+                        simpleMedal.category === 'Mod Introduction',
+                ).length > 0
+            ) {
+                toReturn.push({
+                    name: 'Mod Introduction',
+                    value: simplePage
+                        .filter(
+                            (simpleMedal) =>
+                                simpleMedal.category === 'Mod Introduction',
+                        )
+                        .map((simpleMedal) => simpleMedal.name)
+                        .join(' \n '),
+                });
+            }
+            if (
+                simplePage.filter(
+                    (simpleMedal) =>
+                        simpleMedal.category === 'Beatmap Spotlights',
+                ).length > 0
+            ) {
+                toReturn.push({
+                    name: 'Beatmap Spotlights',
+                    value: simplePage
+                        .filter(
+                            (simpleMedal) =>
+                                simpleMedal.category === 'Beatmap Spotlights',
+                        )
+                        .map((simpleMedal) => simpleMedal.name)
+                        .join(' \n '),
+                });
+            }
+            if (
+                simplePage.filter(
+                    (simpleMedal) =>
+                        simpleMedal.category === 'Seasonal Spotlights',
+                ).length > 0
+            ) {
+                toReturn.push({
+                    name: 'Seasonal Spotlights',
+                    value: simplePage
+                        .filter(
+                            (simpleMedal) =>
+                                simpleMedal.category === 'Seasonal Spotlights',
+                        )
+                        .map((simpleMedal) => simpleMedal.name)
+                        .join(' \n '),
+                });
+            }
+            if (
+                simplePage.filter(
                     (simpleMedal) => simpleMedal.category === 'Hush-Hush',
                 ).length > 0
             ) {
@@ -50,8 +133,6 @@ module.exports = (message) => {
             }
             return toReturn;
         });
-
-    console.log(pages);
 
     const thenFunction = (msg, embed) => {
         msg.react('⏪');
