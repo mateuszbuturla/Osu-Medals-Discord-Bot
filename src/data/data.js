@@ -184,7 +184,7 @@ module.exports = [
     {
         title: "Don't let the bunny distract you",
         description:
-            "Get full cimbo on Chatmonchy - Make Up! Make Up! You can't break slider end",
+            "Get full [cimbo on Chatmonchy - Make Up! Make Up!](https://osu.ppy.sh/beatmapsets/184#osu/8707) You can't break slider end",
         img: 'https://assets.ppy.sh/medals/web/all-secret-bunny.png',
         category: 'Hush-Hush',
     },
@@ -204,7 +204,7 @@ module.exports = [
     {
         title: 'Non-stop Dancer',
         description:
-            "Pass Yoko Ishida - paraparaMAX I. You don't need to full combo. Don't use NF, HT, EZ or SO mods.",
+            "Pass [Yoko Ishida - paraparaMAX](https://osu.ppy.sh/beatmapsets/972#osu/9007). You don't need to full combo. Don't use NF, HT, EZ or SO mods.",
         img: 'https://assets.ppy.sh/medals/web/all-secret-dancer.png',
         category: 'Hush-Hush',
     },
@@ -218,7 +218,8 @@ module.exports = [
     },
     {
         title: 'Challenge Accepted',
-        description: 'Pass an approved map.',
+        description:
+            'Pass an [approved map](https://osu.ppy.sh/beatmapsets?q=&m=-1).',
         img:
             'https://assets.ppy.sh/medals/web/all-secret-challenge_accepted.png',
         category: 'Hush-Hush',
@@ -380,7 +381,8 @@ module.exports = [
     },
     {
         title: 'Hour Before The Dawn',
-        description: 'Full combo any difficulty on ginkiha - EOS.',
+        description:
+            'Full combo any difficulty on [ginkiha - EOS](https://osu.ppy.sh/beatmapsets/151720#osu/373781).',
         img:
             'https://assets.ppy.sh/medals/web/all-secret-hourbeforethedawn.png',
         category: 'Hush-Hush',
@@ -407,21 +409,22 @@ module.exports = [
     },
     {
         title: 'Realtor Extraordinaire',
-        description: 'Full combo cYsmix - House With Legs with HDDTHR mods',
+        description:
+            'Full combo [cYsmix - House With Legs](https://osu.ppy.sh/beatmapsets/360680#osu/792693) with HDDTHR mods',
         img: 'https://assets.ppy.sh/medals/web/all-secret-realtor.png',
         category: 'Hush-Hush',
     },
     {
         title: 'Realitat',
         description:
-            'Get 90% or higher accuracy on LeaF - Evanescent in osu!standard Requires S rank in osu!mania (95%+ accuracy) with 700k+ total score. 93%+ in osu!catch (could be lower?)',
+            'Get 90% or higher accuracy on [LeaF - Evanescent](https://osu.ppy.sh/beatmapsets/227126#osu/529285) in osu!standard Requires S rank in osu!mania (95%+ accuracy) with 700k+ total score. 93%+ in osu!catch (could be lower?)',
         img: 'https://assets.ppy.sh/medals/web/all-secret-realitat.png',
         category: 'Hush-Hush',
     },
     {
         title: 'Our Mechanical Benefactors',
         description:
-            'Pass Traktion - The Near Distant Future with 90% or higher accuracy.',
+            'Pass [Traktion - The Near Distant Future](https://osu.ppy.sh/beatmapsets/97433#osu/260489) with 90% or higher accuracy.',
         img: 'https://assets.ppy.sh/medals/web/all-secret-ourbenefactors.png',
         category: 'Hush-Hush',
     },
@@ -461,21 +464,21 @@ module.exports = [
     {
         title: '50/50',
         description:
-            "Get 100% accuracy Silver Forest - Marisa Spark [Normal] in osu!catch mode. Rhapsody - Emerald Sword [Light]. Start but don't complete sliders to get guaranteed 50 points. NF/HT mods do not work.",
+            "Get 100% accuracy [Silver Forest - Marisa Spark (Normal)](https://osu.ppy.sh/beatmapsets/8393#fruits/34529) in osu!catch mode. [Rhapsody - Emerald Sword (Light)](https://osu.ppy.sh/beatmapsets/3198#osu/21184). Start but don't complete sliders to get guaranteed 50 points. NF/HT mods do not work.",
         img: 'https://assets.ppy.sh/medals/web/all-secret-5050.png',
         category: 'Hush-Hush',
     },
     {
         title: 'Thrill of the Chase',
         description:
-            'Full combo cYsmix - Classic Pursuit [Advanced] with DT mod',
+            'Full combo [cYsmix - Classic Pursuit (Advanced)](https://osu.ppy.sh/beatmapsets/488238#osu/1043382) with DT mod',
         img: 'https://assets.ppy.sh/medals/web/all-secret-thrillofthechase.png',
         category: 'Hush-Hush',
     },
     {
         title: 'The Girl in the Forest',
         description:
-            'Get 95%+ acc and 151 max combo on S3RL - Pika Girl Hard or Insane difficulty. Break combo after 151.',
+            'Get 95%+ acc and 151 max combo on [S3RL - Pika Girl](https://osu.ppy.sh/beatmapsets/40440#osu) Hard or Insane difficulty. Break combo after 151.',
         img: 'https://assets.ppy.sh/medals/web/all-secret-girlintheforest.png',
         category: 'Hush-Hush',
     },
@@ -488,21 +491,22 @@ module.exports = [
     {
         title: 'True Torment',
         description:
-            'Pass Helblinde - The Solace of Oblivion in osu!standard mode',
+            'Pass [Helblinde - The Solace of Oblivion](https://osu.ppy.sh/beatmapsets/594751#osu) in osu!standard mode',
         img: 'https://assets.ppy.sh/medals/web/osu-secret-truetorment.png',
         category: 'Hush-Hush',
     },
     {
         title: 'The Firmament Moves',
         description:
-            'Pass Normal difficulty on cYsmix - Moonlight Sonata with HDDTHR mods',
+            'Pass Normal difficulty on [cYsmix - Moonlight Sonata](https://osu.ppy.sh/beatmapsets/486535#osu/1145134) with HDDTHR mods',
         img:
             'https://assets.ppy.sh/medals/web/all-secret-celestialmovement.png',
         category: 'Hush-Hush',
     },
     {
         title: 'Too Fast, Too Furious',
-        description: 'Pass any difficulty on cYsmix - Fright March with DT mod',
+        description:
+            'Pass any difficulty on [cYsmix - Fright March](https://osu.ppy.sh/beatmapsets/486142#osu/1036654) with DT mod',
         img:
             'https://assets.ppy.sh/medals/web/all-secret-toofasttoofurious.png',
         category: 'Hush-Hush',
@@ -517,7 +521,7 @@ module.exports = [
     {
         title: 'Overconfident',
         description:
-            "Pass a map with very low accuracy using DT, HD or HR mod. Works with 33.33% on Lena Park - Inori~You Raise Me Up (TV Size) [Lanturn's Beginner]",
+            "Pass a map with very low accuracy using DT, HD or HR mod. Works with 33.33% on [Lena Park - Inori~You Raise Me Up (TV Size)](https://osu.ppy.sh/beatmapsets/172662#osu/417503) [Lanturn's Beginner]",
         img: 'https://assets.ppy.sh/medals/web/osu-secret-overconfident.png',
         category: 'Hush-Hush',
     },
@@ -529,26 +533,29 @@ module.exports = [
     },
     {
         title: 'Skylord',
-        description: 'SS James Portland - Sky on Master difficulty',
+        description:
+            'SS [James Portland - Sky](https://osu.ppy.sh/beatmapsets/789528/#osu/1656874) on Master difficulty',
         img: 'https://assets.ppy.sh/medals/web/osu-secret-skylord.png',
         category: 'Hush-Hush',
     },
     {
         title: 'B-Rave',
         description:
-            'Pass Cranky - T&J with over 80% accuracy. Difficulty decreasing mods not allowed',
+            'Pass [Cranky - T&J](https://osu.ppy.sh/beatmapsets/752022/#osu/1583147) with over 80% accuracy. Difficulty decreasing mods not allowed',
         img: 'https://assets.ppy.sh/medals/web/all-secret-brave.png',
         category: 'Hush-Hush',
     },
     {
         title: 'Any%',
-        description: 'Pass any difficulty with DT mod LukHash - GLITCH',
+        description:
+            'Pass any difficulty with DT mod [LukHash - GLITCH](https://osu.ppy.sh/beatmapsets/785774/#osu/1649675)',
         img: 'https://assets.ppy.sh/medals/web/all-secret-anypercent.png',
         category: 'Hush-Hush',
     },
     {
         title: 'Mirage',
-        description: 'Full Combo Culprate - Relucent feat. ZES',
+        description:
+            'Full Combo [Culprate - Relucent feat. ZES](https://osu.ppy.sh/beatmapsets/847996/#osu/1773372)',
         img: 'https://assets.ppy.sh/medals/web/all-secret-mirage.png',
         category: 'Hush-Hush',
     },
@@ -561,7 +568,7 @@ module.exports = [
     {
         title: 'Senseless',
         description:
-            'Pass any 4+ star difficulty from the mapset Gourski x Himmes - Silence with HD mod',
+            'Pass any 4+ star difficulty from the mapset [Gourski x Himmes - Silence](https://osu.ppy.sh/beatmapsets/789905/#osu/1657683) with HD mod',
         img: 'https://assets.ppy.sh/medals/web/all-secret-senseless.png',
         category: 'Hush-Hush',
     },
@@ -574,27 +581,28 @@ module.exports = [
     {
         title: 'Upon The Wind',
         description:
-            'Pass any 4+ star difficulty on Cranky - Hanaarashi with HD mod',
+            'Pass any 4+ star difficulty on [Cranky - Hanaarashi](https://osu.ppy.sh/beatmapsets/751771/#osu/1582583) with HD mod',
         img: 'https://assets.ppy.sh/medals/web/all-secret-uponthewind.png',
         category: 'Hush-Hush',
     },
     {
         title: 'Vantage',
-        description: 'Pass Culprate & Au5 - Impulse without using any mods',
+        description:
+            'Pass [Culprate & Au5 - Impulse](https://osu.ppy.sh/beatmapsets/705788#osu/1492654) without using any mods',
         img: 'https://assets.ppy.sh/medals/web/osu-secret-vantage.png',
         category: 'Hush-Hush',
     },
     {
         title: 'Quick Maths',
         description:
-            'Get exactly 34 misses on any difficulty of Function Phantom - Variable mapset. NF mod works.',
+            'Get exactly 34 misses on any difficulty of [Function Phantom - Variable](https://osu.ppy.sh/beatmapsets/751774/#osu/1582594) mapset. NF mod works.',
         img: 'https://assets.ppy.sh/medals/web/all-secret-quickmaffs.png',
         category: 'Hush-Hush',
     },
     {
         title: 'Efflorescence',
         description:
-            'Pass sakuraburst - cherry blossoms explode across the dying horizon',
+            'Pass [sakuraburst - cherry blossoms explode across the dying horizon](https://osu.ppy.sh/beatmapsets/464485/#osu/994518)',
         img: 'https://assets.ppy.sh/medals/web/all-secret-efflorescence.png',
         category: 'Hush-Hush',
     },
