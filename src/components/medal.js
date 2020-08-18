@@ -13,7 +13,9 @@ module.exports = (message, args) => {
 
     const medalName = args.join(' ');
 
-    const medal = data.filter((element) => element.title === medalName);
+    const medal = data.filter(
+        (element) => element.title.toLowerCase() === medalName.toLowerCase(),
+    );
 
     if (medal.length === 0) {
         return sendMessage(
