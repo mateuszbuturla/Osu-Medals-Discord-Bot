@@ -9,6 +9,7 @@ const medalModel = new Schelma({
     description: { type: String, required: true },
     goodRating: { type: Number, required: true },
     badRating: { type: Number, required: true },
+    index: { type: Number, required: true },
 });
 
 module.exports = mongoose.model('medals', medalModel);
