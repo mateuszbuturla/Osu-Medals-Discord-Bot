@@ -4,7 +4,7 @@ const ratingModel = require('../models/ratingModel');
 const sendMessage = require('../utils/sendMessage');
 
 const getMedals = async () => {
-    const findAllMedals = await medalModel.find({});
+    const findAllMedals = await medalModel.find({}).sort('index');
 
     global.data = findAllMedals;
 };

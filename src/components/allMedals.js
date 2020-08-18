@@ -11,7 +11,6 @@ module.exports = (message) => {
             category: medal.category,
         };
     });
-
     let page = 1;
 
     const pages = allMedals
@@ -51,6 +50,8 @@ module.exports = (message) => {
             }
             return toReturn;
         });
+
+    console.log(pages);
 
     const thenFunction = (msg, embed) => {
         msg.react('⏪');
