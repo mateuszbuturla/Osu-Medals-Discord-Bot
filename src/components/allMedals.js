@@ -1,6 +1,6 @@
 const sendMessage = require('../utils/sendMessage');
 
-const medalsToShowOnOnePage = 5;
+const medalsToShowOnOnePage = 10;
 
 module.exports = (message) => {
     const allMedals = data.map((medal) => {
@@ -10,7 +10,7 @@ module.exports = (message) => {
         };
     });
 
-    let pages = allMedals.chunk_inefficient(5);
+    let pages = allMedals.chunk_inefficient(medalsToShowOnOnePage);
     let page = 1;
 
     const thenFunction = (msg, embed) => {

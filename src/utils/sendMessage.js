@@ -14,7 +14,7 @@ module.exports = (
     if (title) embed.title = title;
     if (status) embed.color = status === 'correct' ? 0x32a852 : 0xdb1a1a;
     if (description) embed.description = description;
-    if (footer) embed.footer = footer;
+    if (footer) embed.setFooter(footer);
     if (fields) embed.fields = fields;
     if (imageUrl) embed.setThumbnail(imageUrl);
 
