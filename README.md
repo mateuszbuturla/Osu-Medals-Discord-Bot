@@ -33,6 +33,12 @@ DB_KEY= (place here your mongodb key)
 $ npm start
 ```
 
+### Create Database
+
+```sh
+$ npm run cretedatabase
+```
+
 ### Tech
 
 -   Node JS
